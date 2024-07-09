@@ -131,8 +131,8 @@ function ServicesPage({ img1, img2, img3, img4, img5, txt }) {
                 <div className="card-body">
                   <h5 className="card-title">Venue</h5>
                   <p className="card-text" style={{ display: "none" }}>
-                    With supporting text below as a natural lead-in to
-                    additional content.
+                    Our specialized venue selection services guarantee the ideal
+                    setting for your event.
                   </p>
                 </div>
               </div>
@@ -142,8 +142,8 @@ function ServicesPage({ img1, img2, img3, img4, img5, txt }) {
                 <div className="card-body">
                   <h5 className="card-title">Decor</h5>
                   <p className="card-text" style={{ display: "none" }}>
-                    With supporting text below as a natural lead-in to
-                    additional content.
+                    We craft exquisite decor that transforms venues into
+                    awe-inspiring environments.
                   </p>
                 </div>
               </div>
@@ -153,8 +153,8 @@ function ServicesPage({ img1, img2, img3, img4, img5, txt }) {
                 <div className="card-body">
                   <h5 className="card-title">Photography</h5>
                   <p className="card-text" style={{ display: "none" }}>
-                    With supporting text below as a natural lead-in to
-                    additional content.
+                    Expert photography services meticulously capture each
+                    unforgettable moment.
                   </p>
                 </div>
               </div>
@@ -164,8 +164,8 @@ function ServicesPage({ img1, img2, img3, img4, img5, txt }) {
                 <div className="card-body">
                   <h5 className="card-title">Food</h5>
                   <p className="card-text" style={{ display: "none" }}>
-                    With supporting text below as a natural lead-in to
-                    additional content.
+                    Our premium catering services captivate your guests with
+                    exceptional culinary delights.
                   </p>
                 </div>
               </div>
@@ -173,10 +173,11 @@ function ServicesPage({ img1, img2, img3, img4, img5, txt }) {
             <div className="col-md-4 col-sm-12 col-xs-12">
               <div className="card">
                 <div className="card-body">
-                  <h5 className="card-title">Food</h5>
+                  <h5 className="card-title">Audio & Visual</h5>
                   <p className="card-text" style={{ display: "none" }}>
-                    With supporting text below as a natural lead-in to
-                    additional content.
+                    We offer top-notch audio-visual solutions, ensuring
+                    exceptional sound and visuals for an unforgettable
+                    experience.
                   </p>
                 </div>
               </div>

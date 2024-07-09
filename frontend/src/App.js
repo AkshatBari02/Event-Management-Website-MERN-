@@ -5,9 +5,9 @@ import Home from './components/home';
 import AboutPage from './components/aboutPage';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import GalleryPage from './components/galleryPage';
-import Wedding from './components/wedding';
-import Corporate from './components/corporate';
-import Social from './components/social';
+import Wedding from './components/servicesPage/wedding.js';
+import Corporate from './components/servicesPage/corporate.js';
+import Social from './components/servicesPage/social.js';
 
 function App() {
   return (

@@ -9,19 +9,19 @@ function Gallery(){
                 <div className="container">
                     <div className="row">
                         <div className="col-md-4 col-lg-4 col-sm-6 col-12">
-                            <Link to="/gallery#wedding">
+                            <Link to="/gallery#Wedding">
                             <img src={require(`./../../images/wedding-3.jpg`)} alt="wedding" className="gallery-container-img img-1"/>
                             </Link>
                             <h4>Wedding</h4>
                         </div>
                         <div className="col-md-4 col-lg-4 col-sm-6 col-12">
-                            <Link to="/gallery#corporate">
+                            <Link to="/gallery#Corporate">
                                 <img src={require(`./../../images/wedding-3.jpg`)} alt="wedding" className="gallery-container-img img-2"/>
                             </Link>
                             <h4>Corporate Events</h4>
                         </div>
                         <div className="col-md-4 col-lg-4 col-sm-6 col-12">
-                            <Link to="/gallery#social">
+                            <Link to="/gallery#Social">
                                 <img src={require(`./../../images/wedding-3.jpg`)} alt="wedding" className="gallery-container-img img-3"/>
                             </Link>
                             <h4>Social Events</h4>

@@ -1,8 +1,8 @@
-import ServicesPage from "./servicesPage";
-import img1 from "../images/corporate-5.jpg";
-import img2 from "../images/corporate-6.jpg";
-import img3 from "../images/corporate-7.jpg";
-import img4 from "../images/corporate-8.jpg";
+import ServicesPage from "../servicesPage";
+import img1 from "../../images/corporate-5.jpg";
+import img2 from "../../images/corporate-6.jpg";
+import img3 from "../../images/corporate-7.jpg";
+import img4 from "../../images/corporate-8.jpg";
 
 
 

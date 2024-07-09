@@ -4,6 +4,9 @@
 .galleryPage-h1{
     text-align:center;
     padding:6vw;
+    color: #e2077d;
+    font-weight: bolder;
+    font-size: 3.5rem !important;
 }
 .flex-column {
     max-width: 260px;
@@ -20,14 +23,15 @@
 .galleryPage-wedding-h1{
     text-align:center;
     padding: 2vw 8vw;
+    color: #e2077d;
 }
-#wedding{
+#Wedding{
     background: linear-gradient(to bottom, #fffcfa, #fff5f9);
 }
-#corporate{
+#Corporate{
     background: linear-gradient(to bottom, #fce5d8,#ffd5e5);
 }
-#social{
+#Social{
     background: linear-gradient(to bottom, #fffcfa, #fff5f9);
 }
 .container-fluid>.d-flex>.d-flex>img:hover{

@@ -1,6 +1,29 @@
 import "./../css/galleryPage.css";
 import { useLocation } from "react-router-dom";
 import { useEffect} from "react";
+import wedding1 from '../images/wedding-3.jpg';
+import wedding2 from '../images/wedding-1.jpg';
+import wedding3 from '../images/wedding-2.jpg';
+import wedding4 from '../images/wedding-4.jpg';
+import wedding5 from '../images/wedding-6.jpg';
+import wedding6 from '../images/wedding-5.jpg';
+import wedding7 from '../images/wedding-7.jpg';
+import wedding8 from '../images/wedding-8.jpg';
+import corporate1 from '../images/corporate-5.jpg';
+import corporate2 from '../images/corporate-1.jpg';
+import corporate3 from '../images/corporate-2.jpg';
+import corporate4 from '../images/corporate-6.jpg';
+import corporate5 from '../images/corporate-7.jpg';
+import corporate6 from '../images/corporate-3.jpg';
+import corporate7 from '../images/corporate-4.jpg';
+import corporate8 from '../images/corporate-8.jpg';
+import social1 from '../images/social-4.jpg';
+import social2 from '../images/social-1.jpg';
+import social3 from '../images/social-2.jpg';
+import social4 from '../images/social-5.jpg';
+import social5 from '../images/social-6.jpg';
+import social6 from '../images/social-3.jpg';
+import GalleryGrid from "./galleryGrid";
 
 
 function GalleryPage(){
@@ -27,104 +50,11 @@ function GalleryPage(){
 
 
             <div id="galleryGrids">
-                <div  id="wedding">
-                    <h1 className="galleryPage-wedding-h1">Wedding</h1>
-                    <div className="container-fluid">
-                        <div className="d-flex flex-row flex-wrap justify-content-center">
-                            <div className="d-flex flex-column">
-                                <img src={require(`../images/wedding-3.jpg`)} className="img-fluid gallery-img"/>
-                    
-                                <img src={require(`../images/wedding-1.jpg`)} className="img-fluid"/>
-                                </div>
-                
-                            <div className="d-flex flex-column">
-                                <img src={require(`../images/wedding-2.jpg`)} className="img-fluid gallery-img"/>
-                    
-                                <img src={require(`../images/wedding-4.jpg`)} className="img-fluid scale"/>
-                            </div>
-                
-                            <div className="d-flex flex-column">
-                                <img src={require(`../images/wedding-6.jpg`)} className="img-fluid gallery-img scale mb-2"/>
-                                
-                                <img src={require(`../images/wedding-5.jpg`)}  className="img-fluid"/>
-                            </div>
-                
-                            <div className="d-flex flex-column">
-                                <img src={require(`../images/wedding-7.jpg`)} className="img-fluid gallery-img m-1 p-1"/>
-                                
-                                <img src={require(`../images/wedding-8.jpg`)} className="img-fluid image m-1 p-1"/>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <GalleryGrid heading={"Wedding"} img1={wedding1} img2={wedding2} img3={wedding3} img4={wedding4} img5={wedding5} img6={wedding6} img7={wedding7} img8={wedding8}/>
 
+                <GalleryGrid heading={"Corporate"} img1={corporate1} img2={corporate2} img3={corporate3} img4={corporate4} img5={corporate5} img6={corporate6} img7={corporate7} img8={corporate8}/>
 
-                <hr></hr>
-
-
-                <div  id="corporate">
-                    <h1 className="galleryPage-wedding-h1">Corporate Events</h1>
-                    <div className="container-fluid">
-                        <div className="d-flex flex-row flex-wrap justify-content-center">
-                            <div className="d-flex flex-column">
-                                <img src={require(`../images/corporate-5.jpg`)} className="img-flu gallery-imgid"/>
-                    
-                                <img src={require(`../images/corporate-1.jpg`)} className="img-fluid"/>
-                            </div>
-                
-                            <div className="d-flex flex-column">
-                                <img src={require(`../images/corporate-2.jpg`)} className="img-flu gallery-imgid"/>
-                    
-                                <img src={require(`../images/corporate-6.jpg`)} className="img-fluid scale"/>
-                            </div>
-                
-                            <div className="d-flex flex-column">
-                                <img src={require(`../images/corporate-7.jpg`)} className="img-flu gallery-imgid scale mb-2"/>
-                                
-                                <img src={require(`../images/corporate-3.jpg`)}  className="img-fluid"/>
-                            </div>
-                
-                            <div className="d-flex flex-column">
-                                <img src={require(`../images/corporate-4.jpg`)} className="img-flu gallery-imgid m-1 p-1"/>
-                                
-                                <img src={require(`../images/corporate-8.jpg`)} className="img-fluid image m-1 p-1"/>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <hr></hr>
-
-
-                <div  id="social">
-                    <h1 className="galleryPage-wedding-h1">Social Events</h1>
-                    <div className="container-fluid">
-                        <div className="d-flex flex-row flex-wrap justify-content-center">
-                            <div className="d-flex flex-column">
-                                <img src={require(`../images/social-4.jpg`)} className="img-fluid" gallery-img/>
-                    
-                                <img src={require(`../images/social-1.jpg`)} className="img-fluid"/>
-                                </div>
-                
-                            <div className="d-flex flex-column">
-                                <img src={require(`../images/social-2.jpg`)} className="img-fluid" gallery-img/>
-                    
-                                <img src={require(`../images/social-5.jpg`)} className="img-fluid scale"/>
-                            </div>
-                
-                            <div className="d-flex flex-column">
-                                <img src={require(`../images/social-6.jpg`)} className="img-fluid  gallery-imgscale mb-2"/>
-                                <img src={require(`../images/social-3.jpg`)}  className="img-fluid"/>
-                            </div>
-                
-                            <div className="d-flex flex-column">
-                                <img src={require(`../images/corporate-1.jpg`)} className="img-flu gallery-imgid m-1 p-1"/>
-                                <img src={require(`../images/corporate-6.jpg`)} className="img-fluid image m-1 p-1"/>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <GalleryGrid heading={"Social"} img1={social1} img2={social2} img3={social3} img4={social4} img5={corporate1} img6={social6} img7={corporate2} img8={corporate4}/>                
             </div>
 
 

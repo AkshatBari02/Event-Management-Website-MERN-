@@ -76,7 +76,7 @@ function NavBar() {
                 </Link>
               </li>
               <li className={`nav-item ${isActive("/contact")}`} id="contact">
-                <Link className="nav-link" aria-current="page" to="#">
+                <Link className="nav-link" aria-current="page" to="contact">
                   Contact Us
                 </Link>
               </li>

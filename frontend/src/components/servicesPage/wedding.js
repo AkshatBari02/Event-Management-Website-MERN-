@@ -1,8 +1,8 @@
-import ServicesPage from "./servicesPage";
-import img1 from "../images/wedding-3.jpg";
-import img2 from "../images/wedding-4.jpg";
-import img3 from "../images/wedding-6.jpg";
-import img4 from "../images/wedding-8.jpg";
+import ServicesPage from "../servicesPage";
+import img1 from "../../images/wedding-3.jpg";
+import img2 from "../../images/wedding-4.jpg";
+import img3 from "../../images/wedding-6.jpg";
+import img4 from "../../images/wedding-8.jpg";
 
 
 

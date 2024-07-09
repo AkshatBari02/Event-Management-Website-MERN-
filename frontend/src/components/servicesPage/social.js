@@ -1,7 +1,7 @@
-import ServicesPage from "./servicesPage";
-import img1 from "../images/social-4.jpg";
-import img2 from "../images/social-5.jpg";
-import img3 from "../images/social-6.jpg";
+import ServicesPage from "../servicesPage";
+import img1 from "../../images/social-4.jpg";
+import img2 from "../../images/social-5.jpg";
+import img3 from "../../images/social-6.jpg";
 
 
 
