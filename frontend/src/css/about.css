@@ -1,0 +1,103 @@
+.about-container{
+    background: linear-gradient(to bottom, #fffcfa, #fff5f9);
+    max-height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-txt{
+    padding: 11vw 3vw 11vw 9vw;
+    margin-left: 0%;
+    transform: translateX(100%);
+	opacity: 0;
+	animation: slide-in-anim 1.5s ease-in-out forwards;
+}
+@keyframes slide-in-anim {
+	0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+.about-txt>h1{
+    padding: 2vw 0vw 1vw 0vw;
+    color: #e2077d;
+}
+.know-btn{
+    padding: 2vw 0vw;
+}
+#knowMoreBtn {
+    padding: 0.5vw 0.2vw !important;
+    min-width: 13vw;
+    background-color: transparent;
+    border: 3px solid magenta;
+    border-radius: 4px 13px;
+    transition: box-shadow 0.3s;
+    color: #786975;
+}
+#knowMoreBtn:hover{
+    box-shadow: 0 0 15px magenta !important;
+}
+
+.about-img{
+    padding: 4vw;
+    transform: translateY(100%);
+	opacity: 0;
+	animation: slide-up-anim 1.5s ease-in-out forwards;
+}
+
+@keyframes slide-up-anim {
+	0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+.about-img>img{
+    max-width: 40vw;
+    max-height: 42vh;
+}
+
+
+
+@media (max-width: 760px) {
+    .about-container{
+        flex-direction: column;
+    }
+    .about-txt{
+        padding: 4vw 0vw 1vw 0vw;
+    }
+    .about-txt>h1{
+        padding: 2vw 0vw 1vw 0vw;
+    }
+    .know-btn{
+        padding: 2vw 0vw;
+    }
+    #knowMoreBtnbutton {
+        padding: 0.5vw 0.2vw !important;
+        min-width: 20vw;
+        background-color: transparent;
+        border: 3px solid magenta;
+        border-radius: 4px 13px;
+        transition: box-shadow 0.3s;
+        color: #786975;;
+    }
+    #knowMoreBtn:hover{
+        box-shadow: 0 0 15px magenta !important;
+    }
+    
+    .about-img{
+        padding: 2vw 3vw;
+    }
+    .about-img>img{
+        max-width: 41vw;
+        max-height: 42vh;
+    }
+}

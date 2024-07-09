@@ -1,0 +1,35 @@
+.nav-cont{
+    padding-left: 10vw;
+  }
+  .nav-tab-cont{
+    flex-grow: 0 !important;
+  }
+  .nav-tab-cont>ul{
+    padding-right: 10vw;
+  }
+  .navbar-toggler {
+    z-index: 4; /* higher z-index than the navbar */
+  }
+  .navbar-brand{
+    font-family: "Noto Serif", serif;
+    font-size: 2.3vw;
+    font-weight: bolder;
+    color: #e2077d !important;
+  }
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.dropdown-menu {
+    display: none;
+}
+
+.active{
+  color: magenta !important;
+  font-weight: bolder;
+}
+.nav-link:hover{
+  color: magenta !important;
+}
+  

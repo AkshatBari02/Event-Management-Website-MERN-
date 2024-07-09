@@ -1,0 +1,14 @@
+footer{
+    background: linear-gradient(to bottom, #fce5d8,#ffd5e5);
+}
+.footer-section>.container{
+    padding-top: 4vw !important;
+}
+
+.footer {
+   margin-top: 15px;
+}
+
+.text-reset{
+    text-decoration: none !important;
+}

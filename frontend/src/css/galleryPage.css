@@ -1,0 +1,36 @@
+.galleryPage-header-bg{
+    background:linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.4)), url("../images/about-bg.jpg") no-repeat center center/cover;
+}
+.galleryPage-h1{
+    text-align:center;
+    padding:6vw;
+}
+.flex-column {
+    max-width: 260px;
+}
+
+.gallery-img {
+    margin: 5px;
+}
+
+.scale {
+    transform: scaleY(1.05);
+    padding-top: 5px; 
+}
+.galleryPage-wedding-h1{
+    text-align:center;
+    padding: 2vw 8vw;
+}
+#wedding{
+    background: linear-gradient(to bottom, #fffcfa, #fff5f9);
+}
+#corporate{
+    background: linear-gradient(to bottom, #fce5d8,#ffd5e5);
+}
+#social{
+    background: linear-gradient(to bottom, #fffcfa, #fff5f9);
+}
+.container-fluid>.d-flex>.d-flex>img:hover{
+    scale: 1.05;
+    cursor: pointer;
+}

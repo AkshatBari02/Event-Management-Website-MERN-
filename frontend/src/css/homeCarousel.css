@@ -1,0 +1,151 @@
+.carousel-item-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    width:100vw;
+    height: 107vh;
+  }
+  .home-carousel {
+    width: 100% !important;
+    height: 107vh !important;
+  }
+
+
+  .home {
+    position: relative; /* Make home component a relative container */
+  }
+  
+  
+
+  .home-container {
+    position: absolute;
+    z-index: 1;
+    top: 6vh; /* Position at the top of the home component */
+    right: 10vw; 
+    min-width: 27vw;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 2vw !important;
+    border-radius: 3rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .home-carousel-h3 {
+    text-align: center !important;
+    margin-bottom: 1vw;
+    color:black;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 0.4vw;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-bottom: 0.5vw;
+    resize: vertical;
+  }
+  
+  textarea {
+    min-height: 15vh;
+  }
+  
+  .home-container>button {
+    background-color: magenta;
+    color: white;
+    padding: 0.6vw 0.3vw;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .home-container>button:hover {
+    background-color:rgb(255, 107, 255) ;
+  }
+  
+  /* Responsive styling for smaller screens */
+  @media (min-width: 661px) and (max-width: 991px) {
+    .carousel{
+      height: 98vh;
+    }
+    .carousel-item>img{
+      height: 98vh;
+    }
+    
+    .home-container {
+      position: absolute;
+      z-index: 1;
+      top: 13vh;
+      right: 5vw;
+      min-width: 35vw;
+      margin: 50px auto;
+      background-color: #fff;
+      padding: 3vw !important;
+      border-radius: 3rem;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      background-color: rgba(255, 255, 255, 0.5);
+  }
+    label {
+      font-size: 14px;
+    }
+  
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    textarea {
+      font-size: 14px;
+    }
+    textarea{
+      max-height: 8vh;
+    }
+  }
+
+  @media (max-width: 660px) {
+    .carousel{
+      height: 98vh;
+    }
+    .carousel-item>img{
+      height: 98vh;
+    }
+    
+    .home-container {
+      position: absolute;
+      z-index: 1;
+      top: 16vh;
+      right: 5vw;
+      min-width: 44vw;
+      margin: 50px auto;
+      background-color: #fff;
+      padding: 3vw !important;
+      border-radius: 1rem;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      background-color: rgba(255, 255, 255, 0.5);
+  }
+    label {
+      font-size: 14px;
+    }
+  
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    textarea {
+      font-size: 14px;
+    }
+    textarea{
+      max-height: 8vh;
+    }
+  }
