@@ -67,8 +67,10 @@
 
 .gallery-container-img{
     width: 30vw;
-    border: 10px solid #ffd5e5;
-    
+    border: 10px solid #ffd5e5;   
+}
+.gallery-container-img:hover{
+    scale: 1.01;
 }
 
 @media (max-width:576px){
