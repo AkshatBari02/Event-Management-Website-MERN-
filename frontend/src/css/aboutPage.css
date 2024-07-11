@@ -4,6 +4,9 @@
 .aboutPage-h1{
     text-align:center;
     padding:8vw;
+    color: #e2077d;
+    font-size: 3rem;
+    font-weight: bolder;
 }
 
 .aboutPage-container-1{
