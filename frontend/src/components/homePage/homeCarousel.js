@@ -18,7 +18,7 @@ function HomeCarousel() {
     e.preventDefault();
     await axios
       .post(
-        "http://localhost:4000/api/v1/message/send",
+        process.env.REACT_APP_API_URL,
         {
           name,
           email,
