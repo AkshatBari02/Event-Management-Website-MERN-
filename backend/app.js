@@ -6,24 +6,15 @@ import cors from "cors";
 
 const app = express();
 
-dotenv.config({path:"./config/config.env"});
+dotenv.config({ path: "./config/config.env" });
 
-const allowedOrigins = [process.env.FRONTEND_URL];
-
-app.use(cors({
-    origin: function (origin, callback) {
-        if (allowedOrigins.indexOf(origin) !== -1 || !origin) {
-            callback(null, true);
-        } else {
-            callback(new Error('Not allowed by CORS'));
-        }
-    },
+app.use(
+  cors({
+    origin: [process.env.FRONTEND_URL],
     methods: ["POST"],
     credentials: true,
-}));
-
-app.options("*", cors({ origin: allowedOrigins, methods: ["POST"], credentials: true }));
-
+  })
+);
 app.use(express.json());
 app.use(express.urlencoded({ extended: true}));
 
