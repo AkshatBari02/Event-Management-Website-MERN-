@@ -13,10 +13,9 @@ function ServicesPage({ img1, img2, img3, img4, img5, txt }) {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    // console.log('Form submitted:', { name, email, mobileNumber, event, message});
     await axios
       .post(
-        "http://localhost:4000/api/v1/message/send",
+        process.env.REACT_APP_API_URL,
         {
           name,
           email,
@@ -30,15 +29,16 @@ function ServicesPage({ img1, img2, img3, img4, img5, txt }) {
         }
       )
       .then((res) => {
-        toast.success(res.data.message);
         setName("");
         setEmail("");
         setMobileNumber("");
         setEvent("");
         setMessage("");
+        alert("Message Sent Succesfully !");
       })
       .catch((error) => {
         toast.error(error.response.data.message);
+        alert("Failed to send message! Try again later!");
       });
   };
   return (

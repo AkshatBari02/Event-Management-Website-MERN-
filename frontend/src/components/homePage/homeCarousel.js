@@ -43,6 +43,7 @@ function HomeCarousel() {
       .catch((error) => {
         if (error.response && error.response.data) {
           toast.error(error.response.data.message);
+          alert("Failed to send message! Try again later!");
         } else {
           toast.error("An unknown error occurred");
         }
